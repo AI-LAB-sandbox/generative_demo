@@ -6,7 +6,8 @@
 
 ## Overview
 ![model_arch](./visual/model_arch.png)
-This method models the temporal evolution of data distributions using a recurrent VAE-based framework. At each domain step 𝑡, a recurrent model (LSTM) generates VAE parameters 𝜔, which are used to reconstruct input data via a domain-specific decoder.
+
+
 - Reconstruction-based data generation: For each domain, reconstructed data is produced using the generated VAE.
 - Self-training with pseudo-labels: A classifier is trained using source labels first, then adapted to later domains using pseudo-labels generated from previous classifiers.
 
