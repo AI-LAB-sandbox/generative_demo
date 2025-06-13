@@ -4,7 +4,7 @@ This project explores generative artificial intelligence techniques focusing on 
 The goal is to understand and visualize how generative models progressively modify or synthesize image content through structured flows.
 
 🧪 Key Objectives:
-- Implement and test DRAIN-based image transformation pipelines
+- Implement and test DRAIN-based pipelines
 - Provide simple, workshop-level demo code for experimentation and learning
 - Visualize the sourece, intermediate and target domain
 
