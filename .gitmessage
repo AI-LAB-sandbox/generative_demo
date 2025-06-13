@@ -1,0 +1,25 @@
+# ✨ [feat] : 기능 추가
+# 🐛 [fix] : 버그 수정
+# 🎉 [init] : 초기 생성
+# 🔄 [rename] : 파일 혹은 폴더명을 수정하거나 옮기는 작업만 한 경우
+# 🗑️ [remove] : 파일을 삭제하는 작업만 수행한 경우
+# 📝 [docs] : 문서 수정 (문서 추가, 수정, 삭제 : 로직변경없음)
+# 🧪 [test] : 테스트 (테스트 코드 추가, 수정, 삭제 : 로직변경없음)
+# 🔥 [refactor] : 코드 리팩토링 (기능 변경 없이 코드 구조 개선)
+# ⚡ [perf] : 성능 개선
+# 🚨 [chore] : 기타 변경사항 (빌드, 설정 변경 등)
+
+# 제목은 명령형으로 간결하게 작성합니다.
+
+# 본문은 보충설명이 필요할 때 작성합니다.
+# 본문은 hyphen으로 시작하며, 여러 줄을 사용하여 항목별로 나열할 수 있습니다.
+
+# 예시:
+# 
+# ✨ [feat] : Implement login session
+#
+# - Implementation of authentication method using JWT. 
+# - If login is successful, a token is returned.
+
+#  —COMMIT END—
+
