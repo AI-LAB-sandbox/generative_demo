@@ -188,7 +188,6 @@ for i, row_idx in enumerate(range(4, len(selected_ids))):
     ax_recon.set_xticks([])
     ax_recon.set_yticks([])
 
-# 마지막 180도 Target domain은 오른쪽 아래 맨 마지막에 추가
 ax_orig = fig.add_subplot(gs[2, 2])
 ax_recon = fig.add_subplot(gs[2, 3])
 
@@ -211,14 +210,6 @@ ax_recon.set_xticks([])
 ax_recon.set_yticks([])
 
 plt.tight_layout()
-save_path = f"./visual/{dataset}_reconstruction_label.png"
-plt.savefig(save_path, dpi=300)
-print(f"✅ Saved reconstruction plot for '{dataset}' to {save_path}")
-
-# -----------------------------------------------------------------------------
-# Save the figure
-# -----------------------------------------------------------------------------
-os.makedirs('./visual', exist_ok=True)
 save_path = f"./visual/{dataset}_reconstruction_label.png"
 plt.savefig(save_path, dpi=300)
 print(f"✅ Saved reconstruction plot for '{dataset}' to {save_path}")
