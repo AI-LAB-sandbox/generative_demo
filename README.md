@@ -3,7 +3,11 @@
 - This project explores generative artificial intelligence techniques focusing on Temporal Domain Generalization with Drift-Aware Dynamic Neural Networks (DRAIN).
 The goal is to understand and visualize how generative models progressively modify or synthesize image content through structured flows.
 
-- This repository serves as a sandbox for AI Lab’s rapid prototyping and educational demos.
+- This repository is a sandbox for coursework projects focused on rapid prototyping and educational demos.
+
+
+
+
 
 ## Overview
 ![model_arch](./visual/model_arch.png)
