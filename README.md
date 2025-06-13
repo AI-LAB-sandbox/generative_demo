@@ -1,19 +1,16 @@
 # A Generative and Self-Training Framework for Temporal Domain Generalization Without Intermediate Supervision
 
-This project explores generative artificial intelligence techniques focusing on Temporal Domain Generalization with Drift-Aware Dynamic Neural Networks (DRAIN).
+- This project explores generative artificial intelligence techniques focusing on Temporal Domain Generalization with Drift-Aware Dynamic Neural Networks (DRAIN).
 The goal is to understand and visualize how generative models progressively modify or synthesize image content through structured flows.
 
-🧪 Key Objectives:
-- Implement and test DRAIN-based pipelines
-- Provide simple, workshop-level demo code for experimentation and learning
-- Visualize the sourece, intermediate and target domain
+- This repository serves as a sandbox for AI Lab’s rapid prototyping and educational demos.
 
-📦 Technologies:
-- PyTorch
-- DRAIN methods
-- VAE methods
+## Overview
+![model_arch](./visual/model_arch.png)
+This method models the temporal evolution of data distributions using a recurrent VAE-based framework. At each domain step 𝑡, a recurrent model (LSTM) generates VAE parameters 𝜔, which are used to reconstruct input data via a domain-specific decoder.
+- Reconstruction-based data generation: For each domain, reconstructed data is produced using the generated VAE.
+- Self-training with pseudo-labels: A classifier is trained using source labels first, then adapted to later domains using pseudo-labels generated from previous classifiers.
 
-This repository serves as a sandbox for AI Lab’s rapid prototyping and educational demos.
 
 ## Setup
 1. Create a Conda environment
@@ -44,3 +41,10 @@ python vvs_moons.py
 ```bash
 ls ./visual
 ```
+
+## Experiment
+- Evolving decision boundary in two moons dataset trained by our method
+![two_moons](./visual/Moons_decision_boundaries.png)
+
+- Evolving decision boundary in shuttle dataset trained by our method
+![two_moons](./visual/Shuttle_decision_boundaries.png)
