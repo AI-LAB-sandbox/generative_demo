@@ -1,12 +1,7 @@
 # A Generative and Self-Training Framework for Temporal Domain Generalization Without Intermediate Supervision
 
-- This project explores generative artificial intelligence techniques focusing on Temporal Domain Generalization with Drift-Aware Dynamic Neural Networks (DRAIN).
-The goal is to understand and visualize how generative models progressively modify or synthesize image content through structured flows.
-
-- This repository is a sandbox for coursework projects focused on rapid prototyping and educational demos.
-
-
-
+- This repository presents a novel framework for Temporal Domain Generalization (TDG), targeting scenarios where data distributions evolve over time and no labeled data from intermediate domains is available.
+- Our method addresses this gap by enabling robust generalization to unseen, time-shifted target domains.
 
 
 ## Overview
@@ -52,3 +47,8 @@ ls ./visual
 
 - Evolving decision boundary in shuttle dataset trained by our method
 ![two_moons](./visual/Shuttle_decision_boundaries.png)
+
+
+---
+
+> ⚠️ **Note**: This repository is a sandbox for coursework projects focused on rapid prototyping and educational demos.
