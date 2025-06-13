@@ -15,4 +15,3 @@ The goal is to understand and visualize how generative models progressively modi
 - VAE methods
 
 This repository serves as a sandbox for AI Lab’s rapid prototyping and educational demos.
-
