@@ -1,4 +1,4 @@
-# Generative Artificial Intelligence: Generative Image Transformations
+# A Generative and Self-Training Framework for Temporal Domain Generalization Without Intermediate Supervision
 
 This project explores generative artificial intelligence techniques focusing on Temporal Domain Generalization with Drift-Aware Dynamic Neural Networks (DRAIN).
 The goal is to understand and visualize how generative models progressively modify or synthesize image content through structured flows.
